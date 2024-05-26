@@ -7,13 +7,14 @@
 	font-style: normal;
 }
 
-body{
-    background-color: var(--background);
+body {
+	background-color: var(--background);
 }
 
 :root {
 	--background: #161616;
 	--nav-background: #212121;
+	--nav-lines: #d9d9d9;
 }
 
 /* 

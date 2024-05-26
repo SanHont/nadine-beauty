@@ -18,17 +18,35 @@
 	section {
 		display: flex;
 		align-items: center;
-        
+		justify-content: space-between;
+		padding: 0 1rem;
 		background-color: var(--nav-background);
 	}
 
 	img {
-		width: 100%;
+		width: 70%;
 	}
 
+	ul:hover {
+		cursor: pointer;
+	}
 	li {
-		width: 10rem;
-		height: 1rem;
-		background-color: aliceblue;
+		height: 0.3rem;
+		margin: 0.3rem;
+		border-radius: 1rem;
+		list-style: none;
+		background-color: var(--nav-lines);
+	}
+
+	li:nth-child(1) {
+		width: 2.6rem;
+	}
+
+	li:nth-child(2) {
+		width: 3rem;
+	}
+
+	li:nth-child(3) {
+		width: 2.1rem;
 	}
 </style>
