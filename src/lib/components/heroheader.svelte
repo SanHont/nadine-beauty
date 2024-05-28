@@ -4,6 +4,7 @@
 </script>
 
 <section>
+	<div class="colored-bg"></div>
 	<img src="assets/heroheader.jpg" alt="" />
 	<article>
 		<h1>Nadine<span>Beauty</span></h1>
@@ -92,6 +93,49 @@
 	}
 
 	li {
+		list-style: none;
 		margin: 0.5em;
+	}
+
+	@media only screen and (min-width: 37.5em) {
+		h1 {
+			font-size: 3em;
+		}
+		h1 span {
+			font-size: 0.6em;
+		}
+		em {
+			font-size: 1em;
+		}
+		li {
+			margin-top: 1em;
+			scale: 1.2;
+		}
+	}
+
+	@media only screen and (min-width: 53.1em) {
+		article {
+			justify-content: center;
+			height: 20em;
+		}
+		article::before {
+			scale: 1.5;
+			left: -2em;
+		}
+
+		h1 {
+			font-size: 4em;
+		}
+		h1 span {
+			font-size: 0.7em;
+		}
+		em {
+			font-size: 1.2em;
+		}
+		li {
+			margin-top: 1em;
+			margin-left: 1.5em;
+			scale: 1.8;
+		}
 	}
 </style>
