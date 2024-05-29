@@ -5,7 +5,7 @@
 
 <section>
 	<div class="colored-bg"></div>
-	<img src="assets/heroheader.jpg" alt="" />
+	<img class="background" src="assets/heroheader.jpg" alt="" />
 	<article>
 		<h1>Nadine<span>Beauty</span></h1>
 		<em>
@@ -117,10 +117,15 @@
 		article {
 			justify-content: center;
 			height: 20em;
+			width: 35em;
 		}
 		article::before {
 			scale: 1.5;
 			left: -2em;
+		}
+
+		.background {
+			content: url(assets/background-desktop.jpg);
 		}
 
 		h1 {
