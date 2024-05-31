@@ -6,5 +6,5 @@
 	export let data;
 </script>
 
-<!-- <Menu {data} /> -->
+<Menu {data} />
 <AboutMe {data} />
