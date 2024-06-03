@@ -18,8 +18,9 @@ body {
 	--nav-background: #212121;
 	--nav-lines: #d9d9d9;
 	--text-color: #fff0f0;
+	--about-me-text-color: #e1c6ad;
 	--gradient-bg: #ffe28e;
-	--text-gradient:  radial-gradient(
+	--text-gradient: radial-gradient(
 		circle farthest-corner at center center,
 		#ffe28e 0%,
 		#c2980f 24%,
@@ -27,6 +28,7 @@ body {
 		#d7b23b 78%,
 		#c2980f 100%
 	);
+	--lines-color: #c2980f;
 
 }
 

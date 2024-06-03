@@ -6,6 +6,7 @@ export async function load() {
 		query MyQuery {
 			nadineBeauties {
 				aboutMeText
+				aboutMeText2
 				aboutMeTitle
 				browsTitle
 				eyelashesTitle
