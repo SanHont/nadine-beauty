@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Cinzel', serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
@@ -15,6 +17,17 @@ body {
 	--background: #161616;
 	--nav-background: #212121;
 	--nav-lines: #d9d9d9;
+	--text-color: #fff0f0;
+	--gradient-bg: #ffe28e;
+	--text-gradient:  radial-gradient(
+		circle farthest-corner at center center,
+		#ffe28e 0%,
+		#c2980f 24%,
+		#eccb66 50%,
+		#d7b23b 78%,
+		#c2980f 100%
+	);
+
 }
 
 /* 
@@ -25,3 +38,11 @@ body {
 		--text-color: #111110;
 	}
 } */
+
+em {
+	color: var(--text-color);
+}
+
+p {
+	color: var(--text-color);
+}
