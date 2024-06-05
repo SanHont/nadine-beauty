@@ -1,8 +1,5 @@
 <script>
-	import Menu from '$lib/components/menu.svelte';
-	import AboutMe from '$lib/components/aboutme.svelte';
-	import HeroHeader from '$lib/components/heroheader.svelte';
-
+	import { Menu , AboutMe, HeroHeader} from '$lib/index.js'
 	export let data;
 </script>
 
