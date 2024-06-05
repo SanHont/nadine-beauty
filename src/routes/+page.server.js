@@ -12,6 +12,14 @@ export async function load() {
 				eyelashesTitle
 				galleryTitle
 				quote
+				eyelashesText
+				browsText
+				browsImage {
+					url
+				}
+				eyelashesImage {
+					url
+				}
 				aboutMeImage {
 					url
 				}
