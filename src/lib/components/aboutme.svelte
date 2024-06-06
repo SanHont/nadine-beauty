@@ -9,7 +9,7 @@
 		</div>
 	</div>
 	<div class="text-section">
-		<h3>{data.nadineBeauties[0].aboutMeTitle}</h3>
+		<h2>{data.nadineBeauties[0].aboutMeTitle}</h2>
 		<p>{data.nadineBeauties[0].aboutMeText}</p>
 		<p>{data.nadineBeauties[0].aboutMeText2}</p>
 		<button>Contact Me</button>
@@ -47,7 +47,7 @@
 		align-items: center;
 	}
 
-	h3 {
+	h2 {
 		font-size: 1.5em;
 		margin: 0.7em 0;
 		font-weight: 500;
@@ -88,7 +88,7 @@
 			width: 80%;
 		}
 
-		h3 {
+		h2 {
 			font-size: 1.7em;
 		}
 
@@ -105,7 +105,7 @@
 	}
 
 	@media only screen and (min-width: 53em) {
-		h3 {
+		h2 {
 			font-size: 1.9em;
 		}
 
@@ -116,7 +116,7 @@
 	}
 
 	@media only screen and (min-width: 62.5em) {
-		h3 {
+		h2{
 			font-size: 2em;
 		}
 
@@ -137,7 +137,7 @@
 			margin-right: 3em;
 		}
 
-		h3 {
+		h2 {
 			font-size: 2.3em;
 		}
 
