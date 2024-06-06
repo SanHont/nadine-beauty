@@ -54,9 +54,9 @@
     }
     @media screen and (min-width: 48em) {
         article{
-            gap: 6em;
             display: flex;
             flex-direction: column;
+            gap: 6em;
         }
         div{
             margin: 0;

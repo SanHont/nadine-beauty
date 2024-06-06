@@ -52,10 +52,10 @@ img{
 }
 @media screen and (min-width: 48em) {
     article{
-        gap: 6em;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 6em;
         width: 70%;
     }
     img{
