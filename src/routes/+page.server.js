@@ -4,22 +4,32 @@ import { hygraph } from '$lib/utils/hygraph.js';
 import { fail } from '@sveltejs/kit';
 import fetch from 'node-fetch';
 
-// GraphQL query to fetch data from Hygraph
-const query = gql`
-	query MyQuery {
-		nadineBeauties {
-			aboutMeText
-			aboutMeText2
-			aboutMeTitle
-			browsTitle
-			eyelashesTitle
-			galleryTitle
-			quote
-			aboutMeImage {
-				url
-			}
-			galleryImage {
-				url
+
+export async function load() {
+	let query = gql`
+		query MyQuery {
+			nadineBeauties {
+				aboutMeText
+				aboutMeText2
+				aboutMeTitle
+				browsTitle
+				eyelashesTitle
+				galleryTitle
+				quote
+				eyelashesText
+				browsText
+				browsImage {
+					url
+				}
+				eyelashesImage {
+					url
+				}
+				aboutMeImage {
+					url
+				}
+				galleryImage {
+					url
+				}
 			}
 		}
 	}

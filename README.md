@@ -1,38 +1,69 @@
-# create-svelte
+# Nadine Beauty Website Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Inhoudsopgave
+1. [Beschrijving](#beschrijving)
+2. [Kenmerken](#kenmerken)
+3. [Installatie](#installatie)
+4. [MoSCoW Checklist](#moscow-checklist)
+5. [Samenwerking](#samenwerking)
+6. [Weekoverzicht](#weekoverzicht)
+7. [Licentie](#licentie)
 
-## Creating a project
+## Beschrijving
+Dit project betreft de ontwikkeling van een dynamische one-page website voor het brow styling salon van Nadine. De website is ontworpen om eenvoudig afspraken te kunnen maken en de stijl en kleuren van het salon te reflecteren. Voor de inhoudsbeheer hebben we Hygraph gekozen vanwege de gebruiksvriendelijkheid en onze expertise met dit systeem.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Kenmerken
+- **Hygraph CMS**: Gebruiksvriendelijk voor de klant.
+- **Responsive Design**: Ontwerp dat werkt op zowel mobiele apparaten als desktops.
+- **Afspraken Systeem**: Eenvoudig te gebruiken interface voor het maken van afspraken.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Tools
+- **🖥️ Visual Studio Code**
+- **🔥 Figma**
+- **✍️ Pen en Papier**
+- **📒 Node.js**
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Gebruikte technieken
+- **📟 HTML**
+- **⌚ CSS**
+- **⚙️ JavaScript**
 
-## Developing
+## Installatie
+1. Installeer NodeJS.
+2. Clone of download deze repository.
+3. Open de terminal.
+4. Voer `npm install` uit (of `npm i`).
+5. Wanneer alles is geïnstalleerd, voer `npm start` uit.
+6. De applicatie wordt gehost op [http://localhost:8000/](http://localhost:8000/).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## MoSCoW Checklist
+### Must have
+- ✅ Mobiele versie
+- ✅ Desktop versie
+- ✅ Afspraken formulier
+- ✅ Dynamische content via Hygraph
 
-```bash
-npm run dev
+### Should have
+- ✅ Styling passend bij het salon
+- ✅ Gebruiksvriendelijke interface
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Could have
+- ❌ Extra animaties
 
-## Building
+### Won't have
+- 🦸‍♀️ Geavanceerde zoekfuncties
 
-To create a production version of your app:
+## Samenwerking
+### Sander:
+De samenwerking met Duneya verliep uitzonderlijk goed. De communicatie was helder en we hielden elkaar goed op de hoogte. Dit zorgde voor een soepel verloop van het project.
 
-```bash
-npm run build
-```
+### Duneya:
+Samenwerken met Sander was een positieve ervaring. Hij nam initiatief en hield zich aan de afspraken, wat de planning en uitvoering ten goede kwam. We hadden regelmatig contact via WhatsApp, wat de samenwerking versterkte.
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Licentie
+Dit project is gelicenseerd onder de MIT-licentie. Zie de [LICENSE](LICENSE) file voor meer informatie.
+
+---
+
+Dit is een overzicht van ons project voor het brow styling salon van Nadine. We hopen dat het een waardevolle toevoeging zal zijn voor haar bedrijf en zien uit naar de lancering.
