@@ -9,3 +9,4 @@
 <AboutMe {data} />
 <EyeLashes {data} />
 <Brows {data} />
+<Footer {data} />
